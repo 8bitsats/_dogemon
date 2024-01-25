@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dogemon Favorite Card Form</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="form-container">
+    <form id="favoriteCardForm">
+        <label for="dogemonCardSelect">Choose your favorite Dogemon card:</label>
+        <select id="dogemonCardSelect" name="dogemonCard">
+            <!-- Options will be populated by JavaScript -->
+        </select>
+
+        <label for="walletAddress">Your Dogecoin Wallet:</label>
+        <input type="text" id="walletAddress" name="walletAddress" placeholder="Doge Wallet Address">
+
+        <button type="button" id="tweetButton">Tweet Your Favorite</button>
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
